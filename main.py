@@ -10,7 +10,7 @@ app = FastAPI ()
 # Definir el endpoint para el mensaje introductorio
 @app.get("/")
 async def root():
-    return {"message": "¡Bienvenido a la API de Servicios de Steam! En esta API, encontrarás una variedad de endpoints que ofrecen diferentes funciones . Desde obtener información sobre desarrolladores y usuarios hasta estadísticas de uso, ¡aquí es donde encontrarás todo!"}
+    return {"message by Jorge Cabuya": "¡Bienvenido a la API de Servicios de Steam! En esta API, encontrarás una variedad de endpoints que ofrecen diferentes funciones . Desde obtener información sobre desarrolladores y usuarios hasta estadísticas de uso, ¡aquí es donde encontrarás todo!"}
 
 
 
